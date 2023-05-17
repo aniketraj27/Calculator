@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 8px 0px;
+}
+
+.row input{
+    margin: 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.button{
+    padding: 20px;
+    margin: 0px 4px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.m-w-20{
+    max-width: 50vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
